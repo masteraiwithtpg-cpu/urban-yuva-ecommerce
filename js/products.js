@@ -31,7 +31,7 @@ const PRODUCTS = [
     originalPrice: 999,
     badge: "New",
     image: "images/shadow-graphic-tee.jpg",
-    alt: "White men's streetwear T-shirt with a minimal black graphic",
+    alt: "Model wearing a tan oversized graphic T-shirt",
     colors: ["White", "Black"],
     sizes: ["S", "M", "L", "XL"],
     rating: 4.7,
@@ -143,4 +143,3 @@ const PRODUCTS = [
     features: ["180 GSM cotton", "Regular fit", "Reinforced neckline", "Colour-fast finish"]
   }
 ];
-
