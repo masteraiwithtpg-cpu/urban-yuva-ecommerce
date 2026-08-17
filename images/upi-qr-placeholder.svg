@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">UPI QR code placeholder</title>
+  <desc id="desc">Decorative placeholder that must be replaced with the store's real UPI QR code.</desc>
+  <rect width="240" height="240" fill="#fff"/>
+  <g fill="#080808">
+    <path d="M18 18h64v64H18zm10 10v44h44V28zm10 10h24v24H38zM158 18h64v64h-64zm10 10v44h44V28zm10 10h24v24h-24zM18 158h64v64H18zm10 10v44h44v-44zm10 10h24v24H38z"/>
+    <path d="M102 18h18v18h-18zm24 0h16v34h-16zm-24 24h16v18h-16zm0 26h42v16h-42zM92 96h18v18H92zm26 0h16v38h-16zm24 0h18v18h-18zm26 0h16v16h-16zm24 0h30v18h-30zM92 122h18v36H92zm52 0h18v18h-18zm24 0h18v36h-18zm26 0h28v18h-28zM102 166h16v18h-16zm24-24h16v42h-16zm18 24h18v18h-18zm24 0h18v36h-18zm26-18h28v18h-28zm0 26h16v16h-16zm-92 18h42v16h-42zm52 18h16v12h-16zm26-12h42v24h-18v-10h-24z"/>
+  </g>
+  <rect x="78" y="104" width="84" height="34" rx="17" fill="#dfff00"/>
+  <text x="120" y="126" fill="#080808" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">REPLACE QR</text>
+</svg>

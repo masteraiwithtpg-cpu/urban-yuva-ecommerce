@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout Your Order | Urban Yuva</title>
+  <meta name="description" content="Complete your Urban Yuva order using UPI or Cash on Delivery, then send your order securely through WhatsApp.">
+  <meta name="theme-color" content="#080808"><link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Urban Yuva Checkout"><meta property="og:description" content="Complete your order with UPI or Cash on Delivery."><meta property="og:type" content="website"><meta property="og:image" content="https://your-domain.com/images/urban-yuva-og.png"><meta property="og:image:alt" content="Urban Yuva minimal men's streetwear collection">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"><script src="js/products.js" defer></script><script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a><div class="announcement">Secure order details sent directly on WhatsApp</div>
+  <header class="site-header"><div class="container header-inner"><button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button><span></span><span></span></button><a class="brand" href="index.html"><span>UY</span>Urban Yuva</a><nav class="site-nav" aria-label="Main navigation" data-navigation><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><div class="header-actions"><a class="header-action header-action--wishlist" href="shop.html?saved=1" aria-label="Browse wishlist items">♡</a><a class="header-action" href="cart.html" aria-label="Open shopping cart">Bag<span class="cart-count" data-cart-count>0</span></a></div></div></header>
+  <main id="main-content">
+    <section class="page-hero"><div class="container"><p class="eyebrow">Final step</p><h1>Checkout</h1><p>Fill in your delivery details. We’ll open WhatsApp with the complete order for you to send.</p></div></section>
+    <section class="section"><div class="container checkout-layout">
+      <form class="checkout-form-card" data-checkout-form><h2>Delivery details</h2>
+        <div class="form-grid">
+          <div class="field"><label for="checkout-name">Full name</label><input id="checkout-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="checkout-phone">Phone number</label><input id="checkout-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9]{10}" placeholder="10-digit mobile number" required></div>
+          <div class="field field--full"><label for="checkout-address">Full address</label><textarea id="checkout-address" name="address" autocomplete="street-address" placeholder="House/flat, street and landmark" required></textarea></div>
+          <div class="field"><label for="checkout-city">City</label><input id="checkout-city" name="city" autocomplete="address-level2" required></div>
+          <div class="field"><label for="checkout-pincode">PIN code</label><input id="checkout-pincode" name="pincode" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{6}" placeholder="6-digit PIN code" required></div>
+          <div class="field field--full"><label for="checkout-note">Order note (optional)</label><textarea id="checkout-note" name="note" placeholder="Delivery instructions or another request"></textarea></div>
+        </div>
+        <fieldset class="payment-options"><legend>Payment method</legend><label class="radio-card"><input type="radio" name="paymentMethod" value="UPI / Online Payment" checked> UPI / Online Payment</label><label class="radio-card"><input type="radio" name="paymentMethod" value="Cash on Delivery"> Cash on Delivery</label></fieldset>
+        <div class="upi-section" data-upi-section><p class="eyebrow">Pay by UPI</p><div class="upi-grid"><img src="images/upi-qr-placeholder.svg" alt="Placeholder QR code for Urban Yuva UPI payment" width="240" height="240"><div><p class="upi-id" data-upi-id>urbanyuva@upi</p><button class="text-button" type="button" data-copy-upi>Copy UPI ID</button><br><a class="text-link" data-upi-payment-link href="#">Open UPI app</a></div></div><small class="muted">Replace the placeholder UPI ID and QR image before launch.</small></div>
+        <button class="button button--dark button--wide" type="submit">Send order on WhatsApp</button>
+      </form>
+      <aside class="checkout-summary-card" aria-label="Order summary"><h2>Your order</h2><div data-checkout-summary></div></aside>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="index.html"><span>UY</span>Urban Yuva</a><p>Minimal men's streetwear for campus days, late nights and every plan in between.</p></div><div class="footer-links"><div class="footer-column"><h2>Shop</h2><a href="shop.html">All products</a><a href="shop.html?category=T-Shirts">T-shirts</a><a href="shop.html?category=Bottoms">Bottoms</a></div><div class="footer-column"><h2>Help</h2><a href="size-guide.html">Size guide</a><a href="shipping.html">Shipping & returns</a><a href="track-order.html">Track order</a></div><div class="footer-column"><h2>About</h2><a href="about.html">Our story</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div><div class="footer-column"><h2>Connect</h2><a data-whatsapp-link href="#" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:hello@urbanyuva.in">Email us</a><a href="#">Instagram</a></div></div></div><div class="footer-bottom"><span>© <span data-year></span> Urban Yuva. All rights reserved.</span><span>Designed for India · Prices include GST</span></div></div></footer>
+  <a class="whatsapp-float" data-whatsapp-link href="#" target="_blank" rel="noopener" aria-label="Chat with Urban Yuva on WhatsApp">WA</a>
+</body></html>
